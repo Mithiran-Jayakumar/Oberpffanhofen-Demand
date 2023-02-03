@@ -11,10 +11,10 @@ import os
 from tkinter import Tk
 from tkinter.filedialog import askdirectory, askopenfilename
 
-basis_file = pd.read_excel(r"C:\Users\mithi\Desktop\TUM Lecture notes\Sem 3 (WiSe 22-23)\Project Seminar\MVV Data\Basis data.xlsx")
+basis_file = pd.read_excel(r"https://github.com/Mithiran-Jayakumar/Oberpffanhofen-Demand/blob/main/Basis%20data.xlsx")
 #basis_file
 
-pt_network = pd.read_csv(r'C:\Users\mithi\Downloads\for-m-demand.csv')
+pt_network = pd.read_csv(r'https://github.com/Mithiran-Jayakumar/Oberpffanhofen-Demand/blob/main/for-m-demand.csv')
 pt_network = pt_network[['stat_name', 'stat_id', 'lat', 'lon', 'route']]
 #pt_network
 
@@ -102,65 +102,3 @@ for x in range(0,10):
 df_result
 demand_data = df_result.to_csv()
 #print (demand_data)
-
-import random
-
-def random_distribution(num_values, max_sum, mean):
-    values = []
-    for i in range(num_values):
-        value = random.uniform(0, (max_sum - sum(values))/(num_values-i))
-        values.append(value)
-    scale = mean * num_values / sum(values)
-    values = [value * scale for value in values]
-    return values
-
-num_values = 12
-max_sum = 1242.98
-mean = 138.11
-values = random_distribution(num_values, max_sum, mean)
-print(values)
-
-pt_network['Mean_Munich'] = values
-pt_network
-
-import random
-
-def random_distribution(num_values, max_sum, mean):
-    values = []
-    for i in range(num_values):
-        value = random.uniform(0, (max_sum - sum(values))/(num_values-i))
-        values.append(value)
-    scale = mean * num_values / sum(values)
-    values = [value * scale for value in values]
-    return values
-
-num_values = 12
-max_sum = 1242.98
-mean = 138.11
-values = random_distribution(num_values, max_sum, mean)
-print(values)
-
-pt_network['Mean_FFB'] = values
-pt_network
-
-import random
-
-def random_distribution(num_values, max_sum, mean):
-    values = []
-    for i in range(num_values):
-        value = random.uniform(0, (max_sum - sum(values))/(num_values-i))
-        values.append(value)
-    scale = mean * num_values / sum(values)
-    values = [value * scale for value in values]
-    return values
-
-num_values = 12
-max_sum = 74.07
-mean = 8.23
-values = random_distribution(num_values, max_sum, mean)
-print(values)
-
-pt_network['Mean_Starnberg'] = values
-pt_network_Gilching = pt_network
-
-pt_network_Gilching
