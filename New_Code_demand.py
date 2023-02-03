@@ -11,25 +11,12 @@ import os
 from tkinter import Tk
 from tkinter.filedialog import askdirectory, askopenfilename
 
-
-
-# In[80]:
-
-
 basis_file = pd.read_excel(r"C:\Users\mithi\Desktop\TUM Lecture notes\Sem 3 (WiSe 22-23)\Project Seminar\MVV Data\Basis data.xlsx")
-basis_file
-
-
-# In[77]:
-
+#basis_file
 
 pt_network = pd.read_csv(r'C:\Users\mithi\Downloads\for-m-demand.csv')
 pt_network = pt_network[['stat_name', 'stat_id', 'lat', 'lon', 'route']]
-pt_network
-
-
-# In[88]:
-
+#pt_network
 
 Bus_stops = pt_network['stat_name']
 bus_stops_1 = []
@@ -39,38 +26,11 @@ for i in Bus_stops:
     bus_stops_1.append(X)
 bus_stops_1
 
-
-# In[89]:
-
-
-pt_network ['bus_stops_1'] = bus_stops_1
-pt_network
-
-
-# In[90]:
-
-
-basis_file
-
-
-# In[91]:
-
-
 pt_network ['bus_stops_1'] = bus_stops_1
 pt_network["Mean_Munich"] = 0
 pt_network["Mean_FFB"] = 0
 pt_network["Mean_Starnberg"] = 0
 #pt_network
-
-
-# In[85]:
-
-
-pt_network
-
-
-# In[92]:
-
 
 column = pt_network.columns
 df_result = pd.DataFrame(columns=column)
@@ -139,22 +99,9 @@ for x in range(0,10):
         
         df_result = pd.concat([df_result,df_pt_network],axis=0,join="inner",ignore_index=True)
 
-
-# In[87]:
-
-
 df_result
-
-
-# In[98]:
-
-
 demand_data = df_result.to_csv()
-print (demand_data)
-
-
-# In[61]:
-
+#print (demand_data)
 
 import random
 
@@ -172,18 +119,10 @@ max_sum = 1242.98
 mean = 138.11
 values = random_distribution(num_values, max_sum, mean)
 print(values)
-
-
-# In[10]:
-
 
 pt_network['Mean_Munich'] = values
 pt_network
 
-
-# In[62]:
-
-
 import random
 
 def random_distribution(num_values, max_sum, mean):
@@ -201,16 +140,8 @@ mean = 138.11
 values = random_distribution(num_values, max_sum, mean)
 print(values)
 
-
-# In[65]:
-
-
 pt_network['Mean_FFB'] = values
 pt_network
-
-
-# In[64]:
-
 
 import random
 
@@ -229,22 +160,7 @@ mean = 8.23
 values = random_distribution(num_values, max_sum, mean)
 print(values)
 
-
-# In[57]:
-
-
 pt_network['Mean_Starnberg'] = values
 pt_network_Gilching = pt_network
 
-
-# In[56]:
-
-
 pt_network_Gilching
-
-
-# In[ ]:
-
-
-
-
