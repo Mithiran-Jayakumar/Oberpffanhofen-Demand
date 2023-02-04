@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[19]:
-
-
 import pandas as pd
 import numpy as np
 import sys
