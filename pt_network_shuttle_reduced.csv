@@ -1,0 +1,63 @@
+stat_id,lon,lat,route,order,time,stat_name,REGION
+de:09188:5490,11.347995,48.005609,955,0,05:37:00,"Starnberg, Starnberg Nord",S
+de:09188:5532,11.335481,48.008968,955,1,05:42:00,"Starnberg, Klinikum-MediCenter",S
+de:09188:5590,11.262897,48.07453,955,2,05:59:00,"Oberpfaffenhofen, Oberpfaffenhofen",O
+de:09188:5380,11.25042,48.076931,955,3,06:03:00,"Weßling, Weßling",W
+de:09188:5360,11.300923,48.106746,947,0,05:38:00,"Gilching, Gilching-Argelsried",G
+de:09188:5370,11.288176,48.098084,947,1,05:42:00,"Neugilching, Neugilching",N
+de:09188:5484,11.282499,48.090242,947,2,05:45:00,"Oberpfaffenhofen, Claude-Dornier-Str.",O
+de:09188:5456,11.287026,48.092024,947,3,05:47:00,"Gilching, RUAG",G
+de:09188:5457,11.291985,48.091736,947,4,05:48:00,"Gilching, Friedrichshafener Str.",G
+de:09188:5484,11.282211,48.09002,947,5,05:50:00,"Oberpfaffenhofen, Claude-Dornier-Str.",O
+de:09188:5486,11.275312,48.084667,947,6,05:52:00,"Oberpfaffenhofen, DLR",O
+de:09188:5447,11.266329,48.080514,947,7,05:54:00,"Oberpfaffenhofen, Argelsrieder Str.",O
+de:09188:5491,11.274602,48.081763,947,8,05:56:00,"Oberpfaffenhofen, Argelsrieder Feld",O
+de:09188:5507,11.269886,48.080532,947,9,05:58:00,"Oberpfaffenhofen, Techno-Park",O
+de:09188:5447,11.265817,48.080928,947,10,05:59:00,"Oberpfaffenhofen, Argelsrieder Str.",O
+de:09188:5380,11.25042,48.076931,947,11,06:03:00,"Weßling, Weßling",W
+de:09188:5380,11.25042,48.076931,X910,0,05:40:00,"Weßling, Weßling",W
+de:09188:5785,11.267137,48.082141,X910,1,05:44:00,"Oberpfaffenhofen, Münchner Str.",O
+de:09188:5486,11.276354,48.085411,X910,2,05:45:00,"Oberpfaffenhofen, DLR",O
+de:09188:5484,11.282499,48.090242,X910,3,05:48:00,"Oberpfaffenhofen, Claude-Dornier-Str.",O
+de:09188:5456,11.287026,48.092024,X910,4,05:49:00,"Gilching, RUAG",G
+de:09188:5320,11.297527,48.088832,X910,5,05:52:00,"Gauting, Sonderflughafen Ost",O
+de:09188:5369,11.313302,48.093338,X910,6,05:54:00,"Gilching, Gewerbegebiet Süd",G
+de:09188:6109,11.358936,48.070149,X910,7,06:03:00,"Gauting, Pentenrieder Straße",GU
+de:09188:5430,11.376346,48.070059,X910,8,06:07:00,"Gauting, Gauting",GU
+de:09162:1540,11.473391,48.109074,X910,9,06:25:00,Klinikum Großhadern,M
+de:09188:5400,11.197796,48.041033,S8,0,02:50:00,"Herrsching, Seefeld-Hechendorf",H
+de:09188:5380,11.25042,48.076931,S8,1,02:57:00,"Weßling, Weßling",W
+de:09999:0001,11.279625,48.089806,S8,2,02:59:00,"Weicheselbaum, Weicheselbaum",O
+de:09188:5370,11.288993,48.099128,S8,3,03:01:00,"Neugilching, Neugilching",N
+de:09188:5360,11.300258,48.105972,S8,4,03:03:00,"Gilching, Gilching-Argelsried",G
+de:09162:1,11.565701,48.139379,S8,5,03:37:00,Karlsplatz (Stachus),M
+de:09162:2,11.575152,48.137911,U6,0,24:39:00,Marienplatz,M
+de:09162:1540,11.473786,48.109026,U6,1,24:55:00,Klinikum Großhadern,M
+de:09188:5450,11.344761,47.996689,X900,0,05:05:00,"Starnberg, Starnberg",S
+de:09188:5360,11.300923,48.106746,X900,1,05:27:00,"Gilching, Gilching-Argelsried",G
+de:09188:5365,11.295677,48.112061,X900,2,05:29:00,"Gilching, Welfenstraße",G
+de:09188:5363,11.291158,48.117614,X900,3,05:30:00,"Gilching, Weßlinger Straße",G
+de:09179:6190,11.263293,48.172267,X900,4,05:42:00,"Fürstenfeldbruck, Fürstenfeldbruck",F
+10620020,11.223839,48.16058,X900,5,05:52:00,Buchenau,F
+de:09179:6190,11.263293,48.172267,X920,0,05:02:00,"Fürstenfeldbruck, Fürstenfeldbruck",F
+de:09188:5359,11.288787,48.117794,X920,1,05:12:00,"Gilching, Waaghäusl",G
+de:09188:5747,11.284116,48.108492,X920,2,05:14:00,"Gilching, Talhofstraße",G
+de:09188:5743,11.290386,48.108108,X920,3,05:16:00,"Gilching, Gutenbergstraße",G
+de:09188:5360,11.300384,48.106716,X920,4,05:20:00,"Gilching, Gilching-Argelsried",G
+de:09162:1540,11.473391,48.109074,X920,5,05:54:00,Klinikum Großhadern,M
+de:09188:5430,11.376346,48.070059,949,0,12:15:00,"Gauting, Gauting",GU
+de:09188:5369,11.313302,48.093338,949,1,12:39:00,"Gilching, Gewerbegebiet Süd",G
+de:09188:5375,11.306924,48.093086,949,2,12:41:00,"Gilching, Zeppelinstraße",G
+de:09188:5587,11.308074,48.102985,949,3,12:43:00,"Gilching, GWG Argelsried",G
+de:09188:5360,11.300923,48.106746,949,4,12:46:00,"Gilching, Gilching-Argelsried",G
+de:09188:5491,11.274602,48.081763,Shut,0,06:00:00,"Oberpfaffenhofen, Argelsrieder Feld",O
+de:09188:5507,11.269886,48.080532,Shut,1,06:02:00,"Oberpfaffenhofen, Techno-Park",O
+de:09188:5447,11.265817,48.080928,Shut,2,06:03:00,"Oberpfaffenhofen, Argelsrieder Str.",O
+de:09188:5785,11.267137,48.082141,Shut,3,06:04:00,"Oberpfaffenhofen, Münchner Str.",O
+de:09188:5486,11.276354,48.085411,Shut,4,06:05:00,"Oberpfaffenhofen, DLR",O
+de:09999:0001,11.279625,48.089806,Shut,5,06:06:00,"Weicheselbaum, Weicheselbaum",O
+de:09188:5484,11.282499,48.090242,Shut,6,06:08:00,"Oberpfaffenhofen, Claude-Dornier-Str.",O
+de:09999:0002,11.286156,48.090059,Shut,7,06:10:00,"Oberpfaffenhofen, Claude-Dornier-Str. West",O
+de:09188:5320,11.297527,48.088832,Shut,8,06:12:00,"Gauting, Sonderflughafen Ost",O
+de:09999:0003,11.295304,48.086115,Shut,9,06:13:00,"Oberpfaffenhofen, Claude-Dornier-Str. Ost",O
+de:09999:0004,11.29697,48.084788,Shut,10,06:14:00,"Oberpfaffenhofen, Lilium",O
