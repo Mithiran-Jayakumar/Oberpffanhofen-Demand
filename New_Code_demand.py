@@ -15,7 +15,7 @@ basis_file = pd.read_csv(r'https://github.com/Mithiran-Jayakumar/Oberpffanhofen-
 #basis_file
 
 pt_network = pd.read_csv(r'https://github.com/Mithiran-Jayakumar/Oberpffanhofen-Demand/blob/main/pt_network_shuttle_reduced.csv')
-pt_network = pt_network[['stat_name', 'stat_id', 'lat', 'lon', 'route', 'REGION']]
+pt_network = pt_network[['stat_name', 'stat_id', 'lat', 'lon', 'route']]
 #pt_network
 
 Bus_stops = pt_network['stat_name']
